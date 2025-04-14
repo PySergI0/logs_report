@@ -18,7 +18,8 @@
 Пример запроса ```python3 main.py logs/app1.log logs/app2.log logs/app3.log --report handlers```
 
 ## Пример отчета
-Пример отчета в корневом каталоге приложения
+    
+![alt text](https://github.com/Serg0NT/logs_report/blob/main/example_report.png)
 
 ## Добавление нового отчета
 1. Добавьте название нового отчета в ```parser.add_argument``` ```"choices=["handlers"]``` , который находится в функции ```args_parser``` в модуле ```src.cli_config.py```
